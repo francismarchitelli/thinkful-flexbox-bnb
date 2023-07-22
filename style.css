@@ -2,7 +2,6 @@
 
 body {
   font-family: "Lato", sans-serif;
-  /*width: fit-content;*/
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +25,6 @@ p {
 
 section {
   padding: 20px;
-/*  align-content: center; */
 }
 
 section.alternate-background {
@@ -36,15 +34,7 @@ section.alternate-background {
 
 main img {
   width: 100%;
-/*  padding: 20px 0 20px 0;
-  display: flex;
-  flex-direction: column; */
 }
-
-/*#about {
-  display: flex;
-  flex-direction: column;
-} */
 
 /* ---  Groups & Items --- */
 
@@ -89,8 +79,6 @@ header nav ul {
 
 header nav ul li {
   list-style-type: none;
-/*  display: inline;
-  flex-direction: column; */
   justify-content: space-evenly; 
 }
 
@@ -105,10 +93,6 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-/*.left-justified {
-  text-align: left;
-}*/
-
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -117,13 +101,11 @@ form {
 
 form div {
   display: flex;
-/*  flex-direction: row; */
   justify-content: space-between;
 }
 
 form label {
   font-weight: bold;
-/*  display: inline-block; */
 }
 
 form select,
@@ -156,15 +138,10 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
-/*  body {
-    display: flex;
-    width: fit-content;
-  } */
 
   header {
     display: flex;
     justify-content: space-between;
-  /*  align-items: flex-start; */
   }
 
   .logo {
@@ -176,7 +153,6 @@ footer p {
 
   form {
     display: flex;
- /*   flex-wrap: wrap;  */
     justify-content: space-between;
 /*    padding: 10px; */
   }
@@ -184,9 +160,6 @@ footer p {
   form div {
     display: flex;
     flex-direction: column;
-/*    padding-left: 10px;
-    padding-right: 10px;
-    text-align: left; */
     min-width: 0;
   }
 
